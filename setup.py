@@ -1,6 +1,6 @@
 from setuptools import Extension, setup
 
-module = Extension('pymsilib._msi',
+module = Extension('msilib._msi',
     libraries = ['Msi','Rpcrt4', 'Cabinet'],
     sources = ['src/_msi.c'],
 )
