@@ -22,9 +22,9 @@ It is replicated here with minimal changes.
 - Source code: https://github.com/TrevorHamm/msilib
 
 - Original source code: 
-          https://github.com/python/cpython/tree/3.12/Lib/msilib
-          https://github.com/python/cpython/blob/3.12/PC/_msi.c
-          https://github.com/python/cpython/blob/3.12/PC/clinic/_msi.c.h
+         - https://github.com/python/cpython/tree/3.12/Lib/msilib
+         - https://github.com/python/cpython/blob/3.12/PC/_msi.c
+         - https://github.com/python/cpython/blob/3.12/PC/clinic/_msi.c.h
 
 
 Copyright and License Information
