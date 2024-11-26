@@ -1,6 +1,6 @@
 # Copyright (C) 2005 Martin v. Löwis
 # Licensed to PSF under a Contributor Agreement.
-from _msi import *
+from pymsilib._msi import *
 import fnmatch
 import os
 import re
