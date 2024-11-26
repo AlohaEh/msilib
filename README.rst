@@ -1,5 +1,11 @@
-This is msilib for Python version 3.13.0
-========================================
+This is msilib for Python version 3.13.0+
+=========================================
+
+General
+-------
+MSILib is a python library for creating and manipulating MSI files.
+This is legacy code. If you are creating a new project, I strongly suggest 
+you do not use MSIs. 
 
 Release Information
 -------------------
@@ -9,7 +15,7 @@ The original code can be found in the Python Git repository.
 It is replicated here with minimal changes.
 As such, it is subject to the same terms and conditions. 
 
-- Source code: https://github.com/python/cpython
+- Source code: https://github.com/TrevorHamm/msilib
 
 
 Copyright and License Information
