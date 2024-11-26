@@ -1,1 +1,1 @@
-python -m build --wheel
+python -m build --wheel --sdist

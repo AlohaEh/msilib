@@ -1,5 +1,5 @@
-This is msilib for Python version 3.13.0+
-=========================================
+This is an msilib replacement for Python versions 3.13.0+
+=========================================================
 
 Usage
 -----
@@ -13,13 +13,18 @@ you do not use MSIs.
 
 Release Information
 -------------------
-As of Python 3.13.0, msilib is no longer included in the default build.
-This simply takes the existing msilib code and packages it as an extra module.
-The original code can be found in the Python Git repository.
+MSILib has been deprecated for quite a while and as of Python 3.13.0, msilib 
+is no longer included in the build.  This library takes the existing msilib 
+code and packages it as an extra module.
+The original code can be found in the Python Git repository (links below).
 It is replicated here with minimal changes.
-As such, it is subject to the same terms and conditions. 
 
 - Source code: https://github.com/TrevorHamm/msilib
+
+- Original source code: 
+  https://github.com/python/cpython/tree/3.12/Lib/msilib
+  https://github.com/python/cpython/blob/3.12/PC/_msi.c
+  https://github.com/python/cpython/blob/3.12/PC/clinic/_msi.c.h
 
 
 Copyright and License Information
