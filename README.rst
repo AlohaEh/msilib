@@ -1,6 +1,12 @@
 This is msilib for Python version 3.13.0+
 =========================================
 
+Usage
+-----
+PyPi doesn't allow for a library to be named msilib since that already exists. 
+You will need to either rename the folder in site-packages after installing
+or rename any existing references to msilib to pymsilib.
+
 General
 -------
 MSILib is a python library for creating and manipulating MSI files.

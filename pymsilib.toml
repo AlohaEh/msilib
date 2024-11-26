@@ -3,6 +3,6 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "msilib"
+name = "pymsilib"
 version = "1.0.0"
 
