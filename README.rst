@@ -4,6 +4,12 @@ This is an msilib replacement for Python versions 3.13.0+
 Usage
 -----
 This library can be import as either msilib or pymsilib.
+I don't understand what is happening in the install with "import msilib".
+It works as expected in a virtual environment but installing otherwise causes
+an issue where it cannot find _msi. This can be fixed by either moving 
+the _msi*.pyd directly into site-packages or change the first line in 
+the __init__.py file to:
+        from ._msi import *             (this adds the "period")
 
 General
 -------
